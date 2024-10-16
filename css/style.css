@@ -518,3 +518,15 @@ body{
         display: none ;
 }
 }
+.center-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+        }
+
+        /* Set the image size */
+        .center-img img {
+            width: 300px; /* Set your desired width */
+            height: auto; /* Maintain aspect ratio */
+        }
