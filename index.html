@@ -53,27 +53,15 @@
             box-shadow: 0 5px #666;
             transform: translateY(4px);
         }
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }{
-        .slider-container {
-            width: 80%;
-            max-width: 1000px;
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        
+       .slider-container {
+    width: 100%; /* Makes the slider full-width */
+    max-width: 100%; /* Ensures it stays full-width across all screen sizes */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
         }
 
         .slider {
